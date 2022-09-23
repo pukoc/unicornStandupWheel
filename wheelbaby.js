@@ -38,23 +38,6 @@ let theWheel = new Winwheel({
         outerRadius: 5,
     },
 });
-let music = new Audio('morning.mp3');
-let controlBtn = document.getElementById('play-pause');
-console.log(controlBtn);
-function playPauseMusic() {
-    if (music.paused) {
-        music.play();
-        controlBtn.classList.remove('play');
-        controlBtn.classList.add('pause');
-    } else if (music.play) {
-        music.pause();
-        controlBtn.classList.remove('pause');
-        controlBtn.classList.add('play');
-    }
-}
-
-// controlBtn.addEventListener('click', classList);
-// controlBtn.addEventListener("click", playPause);
 // Loads the tick audio sound in to an audio object.
 let spinAudio = new Audio('tick.mp3');
 

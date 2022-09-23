@@ -36,7 +36,12 @@
 					</div>
 					<div class="column">
 						<div class="box">
-							<h1 class="label">Choose spin strengh</h1>
+							<h1 class="label" style="
+                            {
+                               color: white;
+                           }
+                       "
+                       align="center">Choose spin strength</h1>
 							<div class="buttons has-addons">
 								<button class="button" id="pw1" onClick="powerSelected(1);">
 									Slowly
@@ -78,13 +83,9 @@
 	</body>
     <footer>
         <div class="content has-text-centered">
-            <audio id="track">
+            <audio id="track" controls loop>
                 <source src="morning.mp3" type="audio/mpeg" />
               </audio>
-            <div id="player-container">
-                <div id="play-pause" class="" onClick="playPauseMusic();">Play</div>
-              </div>
-        </div>
       </footer>
       <script src="wheelbaby.js"></script>
 </html>
