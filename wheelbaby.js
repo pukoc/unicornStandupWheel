@@ -1,25 +1,25 @@
             // Create new wheel object specifying the parameters at creation time.
             let theWheel = new Winwheel({
                 'outerRadius'     : 212,        // Set outer radius so wheel fits inside the background.
-                'innerRadius'     : 20,         // Make wheel hollow so segments don't go all way to center.
+                'innerRadius'     : 1,         // Make wheel hollow so segments don't go all way to center.
                 'textFontSize'    : 25,         // Set default font size for the segments.
                 'textOrientation' : 'horizontal', // Make text vertial so goes down from the outside of wheel.
                 'textAlignment'   : 'outer',    // Align text to outside of wheel.
                 'numSegments'     : 12,         // Specify number of segments.
                 'segments'        :             // Define segments including colour and text.
                 [                               // font size and test colour overridden on backrupt segments.
-                   {'fillStyle' : '#ee1c24', 'text' : 'Torsten'},
-                   {'fillStyle' : '#3cb878', 'text' : 'Mahmoud'},
-                   {'fillStyle' : '#f6989d', 'text' : 'Isabela'},
-                   {'fillStyle' : '#00aef0', 'text' : 'Igor'},
-                   {'fillStyle' : '#f26522', 'text' : 'Tyson'},
-                   {'fillStyle' : '#e70697', 'text' : 'Carmine'},
-                   {'fillStyle' : '#fff200', 'text' : 'Victoria'},
-                   {'fillStyle' : '#f6989d', 'text' : 'Jason'},
-                   {'fillStyle' : '#ee1c24', 'text' : 'Aliki'},
-                   {'fillStyle' : '#3cb878', 'text' : 'Gabor'},
-                   {'fillStyle' : '#f26522', 'text' : 'Naji'},
-                   {'fillStyle' : '#a186be', 'text' : 'Eugen'},
+                   {'fillStyle' : '#F4C8BD', 'text' : 'Torsten'},
+                   {'fillStyle' : '#E8BACB', 'text' : 'Mahmoud'},
+                   {'fillStyle' : '#D0A9B1', 'text' : 'Isabela'},
+                   {'fillStyle' : '#B599C0', 'text' : 'Igor'},
+                   {'fillStyle' : '#ABACCB', 'text' : 'Tyson'},
+                   {'fillStyle' : '#A0BFDD', 'text' : 'Carmine'},
+                   {'fillStyle' : '#97CCDC', 'text' : 'Victoria'},
+                   {'fillStyle' : '#84C3B4', 'text' : 'Jason'},
+                   {'fillStyle' : '#A9D193', 'text' : 'Aliki'},
+                   {'fillStyle' : '#D5E3AC', 'text' : 'Gabor'},
+                   {'fillStyle' : '#F9EDAE', 'text' : 'Naji'},
+                   {'fillStyle' : '#F4BE6A', 'text' : 'Eugen'},
                 ],
                 'animation' :           // Specify the animation to use.
                 {
