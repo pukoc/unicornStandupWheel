@@ -11656,7 +11656,7 @@ body{
   }
   
   #content {
-    height: 45em;
+    height: 20em;
   } p {
     max-width: 30em;
     color: black;
@@ -11709,7 +11709,7 @@ body{
         font-size: 1em;
       }
   }
-
+  
   .footer {
     background-color: #fafafa;
     padding: 3rem 1.5rem 6rem;
