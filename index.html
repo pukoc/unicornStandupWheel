@@ -11,12 +11,6 @@
 		></script>
 	</head>
 	<body class="zava">
-		<audio src="morning.mp3" id="my_music" loop="loop" autoplay="autoplay"></audio>
-        <script type="text/javascript">
-            window.onLoad= function() { 
-                document.getElementById("my_music").play();
-            }
-        </script>
 		<div class="section">
 			<div class="container">
 				<div class="columns is-variable is-8 is-vcentered is-centered">
@@ -81,7 +75,16 @@
 				</div>
 			</div>
 		</div>
-
-		<script src="wheelbaby.js"></script>
 	</body>
+    <footer>
+        <div class="content has-text-centered">
+            <audio id="track">
+                <source src="morning.mp3" type="audio/mpeg" />
+              </audio>
+            <div id="player-container">
+                <div id="play-pause" class="" onClick="playPauseMusic();">Play</div>
+              </div>
+        </div>
+      </footer>
+      <script src="wheelbaby.js"></script>
 </html>
