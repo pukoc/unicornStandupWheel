@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Unicorn Standup Wheel</title>
+        <link rel="icon" href="images/icon.png">
+        <link rel="stylesheet" href="bulma.css" type="text/css" />
+        <script type="text/javascript" src="Winwheel.min.js"></script>
+        <script src="spin.min.js"></script>
+        <script src="https://kit.fontawesome.com/da39d58de5.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="zava">
+        <div class="section">
+            <div class="container ">
+                <div class="columns is-variable is-8 is-vcentered is-centered">
+                    <div class="column is-half-desktop the_wheel">
+                        <p class=" is-size-1 is-6 has-text-centered"><i class=" has-text-danger fas fa-sort-down"></i></p>
+                        <div class="image is-square">
+                            
+                            <canvas class=" has-ratio" id="canvas" width="450" height="450">
+                                <p style="{color: white}" align="center">Sorry, your browser doesn't support canvas. Please try another.</p>
+                            </canvas>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <h1 class="label">Choose spin strengh </h1>
+                            <div class="buttons has-addons">
+                                <button class="button " id="pw1" onClick="powerSelected(1);"> Weak </button>
+                                <button class="button " id="pw2" onClick="powerSelected(2);"> Medium </button>
+                                <button class="button " id="pw3" onClick="powerSelected(3);"> Strong </button>
+                            </div>
+                            <button id="spin_button" class="button is-primary is-fullwidth disabled " disabled  alt="Spin" onClick="startSpin();">SPIN</button>
+                            <button id="reset_button" class="button is-primary is-outlined is-fullwidth is-hidden"  alt="Spin" onClick="resetWheel();"> Reset </button>
+                        </div>
+                        <img src="images/unicorn.png" alt="Handsome Squid" style="width:500px;height:500px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="wheelbaby.js"></script>
+    </body>
+</html>
