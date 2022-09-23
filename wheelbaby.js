@@ -37,19 +37,18 @@
                     'outerRadius': 5,
                 }
             });
-
             // Loads the tick audio sound in to an audio object.
-            let audio = new Audio('tick.mp3');
+            let spinAudio = new Audio('tick.mp3');
 
             // This function is called when the sound is to be played.
             function playSound()
             {
                 // Stop and rewind the sound if it already happens to be playing.
-                audio.pause();
-                audio.currentTime = 0;
+                spinAudio.pause();
+                spinAudio.currentTime = 0;
 
                 // Play the sound.
-                audio.play();
+                spinAudio.play();
             }
 
             // Vars used by the code in this page to do power controls.
