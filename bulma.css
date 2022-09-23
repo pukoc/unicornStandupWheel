@@ -11666,7 +11666,7 @@ body{
     margin: 40px auto;
     text-transform: lowercase;
     line-height: 145%;
-    font-size: 2em;
+    font-size: 1.3em;
     font-variant: small-caps;
   }
   
@@ -11709,7 +11709,7 @@ body{
         font-size: 1em;
       }
   }
-  
+
   .footer {
     background-color: #fafafa;
     padding: 3rem 1.5rem 6rem;
