@@ -70,15 +70,19 @@
 
                     // Now light up all cells below-and-including the one selected by changing the class.
                     if (powerLevel >= 1) {
-                        document.getElementById('pw1').className = "button  is-info is-active";
+                        document.getElementById('pw2').className = "button";
+                        document.getElementById('pw3').className = "button";
+                        document.getElementById('pw1').className = "button is-primary is-active";
                     }
 
                     if (powerLevel >= 2) {
-                        document.getElementById('pw2').className = "button is-warning is-active";
+                        document.getElementById('pw1').className = "button";
+                        document.getElementById('pw2').className = "button is-primary is-active";
                     }
 
                     if (powerLevel >= 3) {
-                        document.getElementById('pw3').className = "button is-danger is-active";
+                        document.getElementById('pw2').className = "button";
+                        document.getElementById('pw3').className = "button is-primary is-active";
                     }
 
                     // Set wheelPower var used when spin button is clicked.
