@@ -1,11 +1,10 @@
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 
-
 body{
     background-color: #fddbff;
+    zoom: 84%;
 }
-
 
 @-webkit-keyframes spinAround {
     from {
