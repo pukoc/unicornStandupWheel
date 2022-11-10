@@ -5,13 +5,12 @@ let theWheel = new Winwheel({
     textFontSize: 25, // Set default font size for the segments.
     textOrientation: 'horizontal', // Make text vertial so goes down from the outside of wheel.
     textAlignment: 'outer', // Align text to outside of wheel.
-    numSegments: 9, // Specify number of segments.
+    numSegments: 8, // Specify number of segments.
     // Define segments including colour and text.
     segments: [
         // font size and test colour overridden on backrupt segments.
         { fillStyle: '#F4C8BD', text: 'Torsten' },
         { fillStyle: '#E8BACB', text: 'Mahmoud' },
-        { fillStyle: '#D0A9B1', text: 'Isabela' },
         { fillStyle: '#B599C0', text: 'Igor' },
         { fillStyle: '#97CCDC', text: 'Victoria' },
         { fillStyle: '#84C3B4', text: 'Jason' },
@@ -30,7 +29,7 @@ let theWheel = new Winwheel({
     },
     // Turn pins on.
     pins: {
-        number: 9,
+        number: 8,
         fillStyle: 'gold',
         outerRadius: 5,
     },
