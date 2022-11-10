@@ -5,7 +5,7 @@ let theWheel = new Winwheel({
     textFontSize: 25, // Set default font size for the segments.
     textOrientation: 'horizontal', // Make text vertial so goes down from the outside of wheel.
     textAlignment: 'outer', // Align text to outside of wheel.
-    numSegments: 12, // Specify number of segments.
+    numSegments: 9, // Specify number of segments.
     // Define segments including colour and text.
     segments: [
         // font size and test colour overridden on backrupt segments.
