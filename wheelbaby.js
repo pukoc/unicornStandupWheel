@@ -13,13 +13,10 @@ let theWheel = new Winwheel({
         { fillStyle: '#E8BACB', text: 'Mahmoud' },
         { fillStyle: '#D0A9B1', text: 'Isabela' },
         { fillStyle: '#B599C0', text: 'Igor' },
-        { fillStyle: '#ABACCB', text: 'Tyson' },
-        { fillStyle: '#A0BFDD', text: 'Carmine' },
         { fillStyle: '#97CCDC', text: 'Victoria' },
         { fillStyle: '#84C3B4', text: 'Jason' },
         { fillStyle: '#A9D193', text: 'Aliki' },
         { fillStyle: '#D5E3AC', text: 'Gabor' },
-        { fillStyle: '#F9EDAE', text: 'Naji' },
         { fillStyle: '#F4BE6A', text: 'Eugen' },
     ],
     // Specify the animation to use.
