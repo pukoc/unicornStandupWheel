@@ -9,13 +9,13 @@ let theWheel = new Winwheel({
     // Define segments including colour and text.
     segments: [
         // font size and test colour overridden on backrupt segments.
-        { fillStyle: '#F4C8BD', text: 'Torsten' },
-        { fillStyle: '#E8BACB', text: 'Mahmoud' },
-        { fillStyle: '#B599C0', text: 'Igor' },
-        { fillStyle: '#97CCDC', text: 'Victoria' },
-        { fillStyle: '#84C3B4', text: 'Jason' },
-        { fillStyle: '#A9D193', text: 'Aliki' },
-        { fillStyle: '#D5E3AC', text: 'Gabor' },
+        { fillStyle: '#F4C8BD', text: 'Luka' },
+        { fillStyle: '#E8BACB', text: 'Shaq' },
+        { fillStyle: '#B599C0', text: 'AI' },
+        { fillStyle: '#97CCDC', text: 'Vince' },
+        { fillStyle: '#84C3B4', text: 'Gasol' },
+        { fillStyle: '#A9D193', text: 'MJ' },
+        { fillStyle: '#D5E3AC', text: 'Kobe' },
         { fillStyle: '#F4BE6A', text: 'Eugen' },
     ],
     // Specify the animation to use.
